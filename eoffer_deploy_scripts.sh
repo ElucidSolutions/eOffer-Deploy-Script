@@ -165,9 +165,9 @@ echo $cc
 carboncopy="-c [[Robert Sherwood|Robert]].Sherwood@nolijconsulting.com -c thomas.ahn@gsa.gov -c larry.lee@nolijconsulting.com"
 
 display "Notifying GSA..."
-mutt -s "Please deploy the Vendor Facing Release Notes Package" $cc $email <<- EOF
+mutt -s "Please deploy the eOffer Package" $cc $email <<- EOF
 Hi,
-The latest version of the Vendor Facing Release Notes (https://eoffer-test.fas.gsa.gov/AMSupport/vendor-release-notes/) is ready for deployment.
+The latest version of the eOffer User Guides (https://eoffer.gsa.gov/AMSupport/index.html) is ready for deployment.
 The source code package for this project can be downloaded from:
 * https://s3.amazonaws.com/amsystemssupport.fas.gsa.gov/$package
 * https://s3.amazonaws.com/amsystemssupport.fas.gsa.gov/$hash
