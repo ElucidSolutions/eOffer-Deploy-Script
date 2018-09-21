@@ -141,8 +141,6 @@ tar --bzip2 -cvf $package $source
 sha1sum $package > $hash
 notice "Created the deployment package."
 
-exit 0
-
 # III. Post the package to AWS.
 
 notice "Posting the deployment package to AWS..."
